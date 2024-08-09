@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "893570534908",
+    "project_id": "team-h-7d1f3",
+    "storage_bucket": "team-h-7d1f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893570534908:android:ad17a0b533f949aa56f679",
+        "android_client_info": {
+          "package_name": "edu.vassar.cmpu203.workoutapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893570534908-gp37feb98n7illlks5r2ckfohrniinhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEWzP-hSj5H2PjqzdyScSieTKthfuvwGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893570534908-gp37feb98n7illlks5r2ckfohrniinhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

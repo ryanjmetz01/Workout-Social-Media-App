@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">WorkoutApp</string>
+    <string name="postButton">Post</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="createPost">Create Post</string>
+    <string name="addWorkoutButton">Add Workout</string>
+    <string name="caption">Add Caption:</string>
+    <string name="captionTextBox">Enter Caption</string>
+    <string name="titleWorkout">Add a Workout</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="length_label">Workout Length (Min)</string>
+    <string name="diff_label">Workout Difficulty</string>
+    <string name="length_input">0</string>
+    <string name="diff_input">1 to 5</string>
+    <string name="workout_description">Workout description:</string>
+    <string name="input_workout">Describe workout here</string>
+    <string name="profileButton">Profile</string>
+    <string name="feedButton">Feed</string>
+    <string name="postCaption">Caption</string>
+    <string name="postWorkout">Workout</string>
+    <string name="captionButton">Add</string>
+    <string name="createProfileText">Create Profile</string>
+    <string name="userText">Enter Username:</string>
+    <string name="UsernameButton">Confirm</string>
+    <string name="PasswordText">Enter Password:</string>
+    <string name="PasswordButton">Confirm</string>
+    <string name="usernameText">Username</string>
+    <string name="passText">Password</string>
+    <string name="bioText">Enter Bio:</string>
+    <string name="bioEdit">Bio</string>
+    <string name="bioButton">Confirm</string>
+    <string name="experienceLevelText">Enter Experience Level:</string>
+    <string name="createButton">Create</string>
+    <string name="cardioButton">Cardio</string>
+    <string name="strengthButton">Strength</string>
+    <string name="CardioTitle">Cardio Workout</string>
+    <string name="StrengthTitle">Strength Workout</string>
+    <string name="MobilityTitle">Mobility Workout</string>
+    <string name="AgilityFocus">Agility Focus</string>
+    <string name="EnduranceFocus">Endurance Focus</string>
+    <string name="SpeedFocus">Speed Focus</string>
+    <string name="SetButton">Set</string>
+    <string name="UpperBodyFocus">Upper Body Focus</string>
+    <string name="LowerBodyFocus">Lower Body Focus</string>
+    <string name="BodyWeightFocus">Body Weight Focus</string>
+    <string name="FullBodyFocus">Full Body Focus</string>
+    <string name="Post1">Post</string>
+    <string name="Post2">Post</string>
+    <string name="Post3">Post</string>
+    <string name="addButton">Add Post</string>
+    <string name="filterTitle">Filters</string>
+    <string name="lengthFilter">Length</string>
+    <string name="DiffFilter">Difficulty</string>
+    <string name="empty"></string>
+    <string name="sport">Sport Focus</string>
+    <string-array name="diff_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="sport_array">
+        <item>None</item>
+        <item>Tennis</item>
+        <item>Lacrosse</item>
+        <item>Baseball</item>
+        <item>Soccer</item>
+        <item>Track and Field</item>
+        <item>Basketball</item>
+        <item>Rugby</item>
+        <item>Rowing</item>
+        <item>Swimming</item>
+    </string-array>
+    <string name="RemoveFilter">Remove Filters</string>
+    <string name="FilterInfo">Leave field as zero if no preference</string>
+    <string name="WelcomeMessage">Ultimate Social media app for Workouts</string>
+    <string name="SignUpButton">Sign Up</string>
+    <string name="LogInButton">Log In</string>
+    <string name="NewUserMessage">Don\'t have an account?</string>
+    <string name="workoutType">Workout Type</string>
+    <string-array name="typeArray">
+        <item>Any</item>
+        <item>Cardio</item>
+        <item>Strength</item>
+        <item>Mobility</item>
+    </string-array>
+    <string name="mobility">Mobility</string>
+    <string name="yoga">Yoga</string>
+    <string name="dynamic">Dynamic Stretching</string>
+    <string name="staticStretching">Static Stretching</string>
+    <string name="profile">Profile</string>
+    <string name="Posts">Posts</string>
+    <string name="Followers">Followers</string>
+    <string name="Following">Following</string>
+    <string name="goback">Go Back</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="FollowRequests">View Follow Requests</string>
+    <string name="RequestFollow">Request Follow</string>
+    <string name="setUsername">Set Username</string>
+    <string name="setPassword">Set Password</string>
+    <string name="setBio">Set Bio</string>
+    <string name="done">Done</string>
+    <string name="CreationSuccessful">Creation Successful</string>
+    <string name="userExists">Sorry, this user already exists. Pick a new username.</string>
+    <string name="invalidCredentials">Incorrect Username or Password. Try again!</string>
+    <string name="backToProfile">Back</string>
+    <string name="accept">Request Accepted!</string>
+    <string name="decline">Request Declined!</string>
+    <string name="logout">Logout</string>
+    <string name="login">LogIn successful</string>
+</resources>

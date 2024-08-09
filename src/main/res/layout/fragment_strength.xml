@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.StrengthFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/createPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="24dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/StrengthTitle"
+        android:textAlignment="viewStart"
+        android:textColor="@color/purple_700"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/UpperBodyOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UpperBodyFocus" />
+
+        <RadioButton
+            android:id="@+id/LowerBodyOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LowerBodyFocus" />
+
+        <RadioButton
+            android:id="@+id/BodyWeightOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BodyWeightFocus" />
+
+        <RadioButton
+            android:id="@+id/FullBodyOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/FullBodyFocus" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/StrengthSetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/SetButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
